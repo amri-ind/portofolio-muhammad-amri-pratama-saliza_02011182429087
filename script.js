@@ -6,7 +6,7 @@
 
       let response = "";
 
-      // Simulasi AI memberikan jawaban hukum
+      
       if (event.includes("tanah") && event.includes("notaris")) {
         response = "⚖️ Menurut hukum pertanahan, transaksi jual beli tanah wajib dilakukan dengan akta notaris (PPAT). Tanpa akta, jual beli tidak memiliki kekuatan hukum penuh.";
       } else if (event.includes("cerai") || event.includes("perceraian")) {
